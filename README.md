@@ -1,6 +1,6 @@
 # Exploded Potato
 
-APT/malware-family emulation and detonation tooling. Split out of [Loaded-Potato](../Loaded-Potato/) Group 10.
+APT/malware-family emulation and detonation tooling.
 
 ## Setup
 
@@ -39,4 +39,4 @@ Set-Secret -Name 'OTX_API_Key'            -Secret (Read-Host -AsSecureString)
 
 ## Known cleanup items
 
-- `aptIocs.psm1` contains its own internal `Get-MalwareBazaarByTag` that duplicates `GetMalwareBazaarByTag.psm1`. Pre-existing from Loaded-Potato; consolidate when convenient.
+- `aptIocs.psm1` contains its own internal `Get-MalwareBazaarByTag` that duplicates `GetMalwareBazaarByTag.psm1`; consolidate when convenient.
